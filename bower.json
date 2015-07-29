@@ -1,6 +1,6 @@
 {
   "name": "fineuploader-client-requirejs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/esbenp/fineuploader-client-requirejs",
   "main": "index.js",
   "authors": [
@@ -13,5 +13,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "fineuploader-client": "0.3.*"
+  }
 }
